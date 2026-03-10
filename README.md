@@ -107,7 +107,7 @@ _(Runs on `http://localhost:3000`)_
 
 ## 👨‍💻 About the Developers
 
-**Built by [uitachi18](https://github.com/uitachi18)** and **Gaurav (AI & ML Researcher)**
+**Built by [Gaurav](https://github.com/uitachi18)** **(AI & ML Researcher)**
 
 We are passionate about the intersection of Artificial Intelligence, full-stack architecture, and futuristic, specialized user interfaces. AuraCheck AI was conceptualized not just as a tool, but as an experience—merging high-performance APIs (FastAPI/Next.js) with bleeding-edge LLM validation pipelines to combat misinformation in style.
 
