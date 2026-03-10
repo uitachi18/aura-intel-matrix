@@ -40,6 +40,17 @@ The application surfaces live, trending news headlines globally (or regionally) 
 - **Framer Motion:** Smooth state transitions and micro-animations.
 - **Lucide React:** Vector iconography.
 
+## 🧠 Engine Philosophy & Architecture
+
+AuraCheck AI was built to solve the modern problem of misinformation speed. By the time human fact-checkers verify a trending claim, millions have already consumed it.
+
+**The Pipeline:**
+
+1. **Aggregator Node:** Ingests live news from selected global regions.
+2. **Serper Matrix:** Bypasses standard Search UI, leveraging the Google Serper API to quietly gather 10-15 top correlating or refuting sources for the specific claim.
+3. **Synthesis Core (LLM):** An AI (GPT-4o-mini) acts as the arbiter, deeply analyzing the cross-referenced sources. It assigns a strict mathematical `ruth_score` and determines if a headline is True, Misleading, False, or Needs Context.
+4. **Vocal Emitter:** Instead of forcing users to read the dense analysis, the system synthesizes a high-quality (Onyx voice) conversational podcast summarizing exactly _why_ a claim is true or false.
+
 ---
 
 ## 🚀 Local Deployment Protocol
@@ -91,6 +102,16 @@ npm run dev
 ```
 
 _(Runs on `http://localhost:3000`)_
+
+---
+
+## 👨‍💻 About the Developer
+
+**Built by [uitachi18](https://github.com/uitachi18)**
+
+I am passionate about the intersection of Artificial Intelligence, full-stack architecture, and futuristic, specialized user interfaces. AuraCheck AI was conceptualized not just as a tool, but as an experience—merging high-performance APIs (FastAPI/Next.js) with bleeding-edge LLM validation pipelines to combat misinformation in style.
+
+Feel free to fork the repository, submit pull requests, or reach out regarding collaborations on future intelligence matrices!
 
 ---
 
